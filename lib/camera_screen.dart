@@ -75,7 +75,7 @@ class _CameraScreenState extends State<CameraScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('GeeksForGeeks'),
+        title: Text('Image Detector'),
       ),
       body: _controller.value.isInitialized
           ? Stack(
